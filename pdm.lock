@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["cross_platform"]
 lock_version = "4.4.1"
-content_hash = "sha256:550a0a8ad5b3f675fe9657b5485be3948058a41a1654ba5ad13903850d396b9c"
+content_hash = "sha256:f623a5c93e75f3feebaa38ca91dbcd98b9af9fcbe8a0ec2ede02509813ca4fbd"
 
 [[package]]
 name = "asgiref"
@@ -82,12 +82,14 @@ files = [
 
 [[package]]
 name = "crispy-tailwind"
-version = "0.5.0"
-requires_python = ">=3.5"
-path = "../crispy-tailwind"
+version = "1.0.0"
+requires_python = ">=3.8"
+git = "https://github.com/blasferna/crispy-tailwind.git"
+revision = "b1097487eaff4b14d686e30ee16bf11b66d94327"
 summary = "A tailwind package for Django Crispy Forms"
 dependencies = [
-    "django-crispy-forms>=1.12.0",
+    "django-crispy-forms>=2.0",
+    "django>=4.2",
 ]
 
 [[package]]

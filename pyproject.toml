@@ -8,8 +8,8 @@ authors = [
 dependencies = [
     "django>=4",
     "backports-zoneinfo>=0.2.1",
-    "crispy-tailwind @ file:///${PROJECT_ROOT}/../crispy-tailwind",
     "django-autocomplete-light>=3.9.7",
+    "crispy-tailwind @ git+https://github.com/blasferna/crispy-tailwind.git",
 ]
 requires-python = "==3.8.*"
 readme = "README.md"

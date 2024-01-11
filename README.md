@@ -1,6 +1,6 @@
 # crispy-tailwind-select-issue
 
-This repository is a demo project to verify the fixes applied in the pull request of the crispy-tailwind repository.
+This repository is a demo project to verify the fixes applied in this [pull request](https://github.com/django-crispy-forms/crispy-tailwind/pull/150) of the crispy-tailwind repository.
 
 ## Getting Started
 
